@@ -5,7 +5,7 @@ using System.Web;
 
 namespace MyFirstApp1399.Models
 {
-    public class CommentTb
+    public class Comment
     {
         public int Id { get; set; }
         public int MenueId { get; set; }

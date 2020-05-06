@@ -5,14 +5,14 @@ using System.Web;
 
 namespace MyFirstApp1399.Models
 {
-    public class FileTb
+    public class File
     {
         public int Id { get; set; }
-        public string TTL { get; set; }
-        public string tTX { get; set; }
-        public DateTime? RegDte { get; set; }
+        public string Title { get; set; }
+        public string Text { get; set; }
+        public DateTime? CreatedOn { get; set; }
         public string FileName { get; set; }
-        public string FileTyp { get; set; }
+        public string FileType { get; set; }
         public int? Size { get; set; }    
         public int MenueId { get; set; }
     }
