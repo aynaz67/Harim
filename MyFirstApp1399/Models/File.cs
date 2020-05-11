@@ -21,8 +21,8 @@ namespace MyFirstApp1399.Models
 
         public int Size { get; set; }
 
-        public int MenueId { get; set; }
+        public int MenuId { get; set; }
 
-        public virtual Menue Menue{get; set;}
+        public virtual Menu Menu{get; set;}
     }
 }

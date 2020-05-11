@@ -5,7 +5,7 @@ using System.Web;
 
 namespace MyFirstApp1399.Models
 {
-    public class Menue
+    public class Menu
     {
         public int Id { get; set; }
         public int ParentId { get; set; }

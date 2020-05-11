@@ -10,13 +10,10 @@ namespace MyFirstApp1399.DAL
     {
         public Context():base()
         {
-
-
         }
 
-        public IDbSet<Models.Menue> Menues { get; set; }
+        public IDbSet<Models.Menu> Menus { get; set; }
         public IDbSet<Models.File> Files { get; set; }
-
         public IDbSet<Models.Comment> Comments { get; set; }
     }
 }
