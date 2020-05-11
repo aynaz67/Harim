@@ -12,7 +12,7 @@ namespace MyFirstApp1399.Models
         public string Name { get; set; }
         public string Email { get; set; }
         public string Opinion { get; set; }
-
+        public DateTime CreatedOn { get; set; }
         public virtual Menu Menu { get; set; }
     }
 }

@@ -139,6 +139,10 @@
     <Compile Include="Migrations\202005111914105_Fix_Typo.designer.cs">
       <DependentUpon>202005111914105_Fix_Typo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202005111928270_AddCreatedOntoComment.cs" />
+    <Compile Include="Migrations\202005111928270_AddCreatedOntoComment.designer.cs">
+      <DependentUpon>202005111928270_AddCreatedOntoComment.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Comment.cs" />
     <Compile Include="DAL\Context.cs" />
@@ -205,6 +209,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202005111914105_Fix_Typo.resx">
       <DependentUpon>202005111914105_Fix_Typo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005111928270_AddCreatedOntoComment.resx">
+      <DependentUpon>202005111928270_AddCreatedOntoComment.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
