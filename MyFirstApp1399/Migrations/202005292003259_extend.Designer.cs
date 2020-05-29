@@ -7,13 +7,13 @@ namespace MyFirstApp1399.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.0")]
-    public sealed partial class Fix_Typo : IMigrationMetadata
+    public sealed partial class extend : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Fix_Typo));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(extend));
         
         string IMigrationMetadata.Id
         {
-            get { return "202005111914105_Fix_Typo"; }
+            get { return "202005292003259_extend"; }
         }
         
         string IMigrationMetadata.Source

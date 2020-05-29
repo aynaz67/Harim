@@ -7,13 +7,13 @@ namespace MyFirstApp1399.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.0")]
-    public sealed partial class intialcreate : IMigrationMetadata
+    public sealed partial class createee : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(intialcreate));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(createee));
         
         string IMigrationMetadata.Id
         {
-            get { return "202005101739273_intialcreate"; }
+            get { return "202005292001374_createee"; }
         }
         
         string IMigrationMetadata.Source

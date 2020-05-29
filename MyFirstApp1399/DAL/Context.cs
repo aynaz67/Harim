@@ -14,6 +14,8 @@ namespace MyFirstApp1399.DAL
 
         public IDbSet<Models.Menu> Menus { get; set; }
         public IDbSet<Models.File> Files { get; set; }
-        public IDbSet<Models.Comment> Comments { get; set; }
+        public IDbSet<Models.Comment> comments { get; set; }
+        public IDbSet<Models.Post> Posts { get; set; }
+
     }
 }
