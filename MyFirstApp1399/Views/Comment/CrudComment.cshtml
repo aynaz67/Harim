@@ -1,0 +1,28 @@
+﻿@model IEnumerable<MyFirstApp1399.Models.Comment>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>CrudComment</title>
+</head>
+<body>
+
+
+
+    <div>
+        <div>name <span style="margin-left:10px;">Opinion</span></div>
+        @foreach (var item in Model)
+        {
+            <form action="RemoveComments" method="post">
+                <input type="hidden" name="id" value="@item.Id" />
+                <div>@item.Name <span style="margin-left:10px;"> @item.Opinion</span> <button type="submit">Delete</button>  </div>
+            </form>
+        }
+    </div>
+
+
+
+</body>
+</html>

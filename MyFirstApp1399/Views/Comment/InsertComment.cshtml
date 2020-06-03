@@ -1,0 +1,24 @@
+﻿
+@model MyFirstApp1399.Models.Comment
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>InsertComment</title>
+</head>
+<body>
+    <div>
+        <form action="CreateComments" method="post">
+            <input type="hidden" name="PostId" value="2" />
+            <div>  <label>Name:</label>  @Html.EditorFor(x=>x.Name) </div>
+            <div>
+                <label>Email:</label>       <input type="text" name="Email" />
+            </div>
+            <div><label>Opinion:</label>     <input type="text" name="Opinion" /></div>
+    <button type="submit">درج</button>
+
+    </form>
+    </div>
+</body>
+</html>

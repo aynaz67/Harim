@@ -127,6 +127,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CommentController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -139,6 +140,10 @@
     <Compile Include="Migrations\202005292003259_extend.designer.cs">
       <DependentUpon>202005292003259_extend.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202006031529403_update menu Model.cs" />
+    <Compile Include="Migrations\202006031529403_update menu Model.designer.cs">
+      <DependentUpon>202006031529403_update menu Model.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Comment.cs" />
     <Compile Include="DAL\Context.cs" />
@@ -146,6 +151,9 @@
     <Compile Include="Models\Menu.cs" />
     <Compile Include="Models\Post.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\Comment_Srv.cs" />
+    <Compile Include="Services\File.cs" />
+    <Compile Include="Services\Post.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -183,6 +191,8 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Comment\CrudComment.cshtml" />
+    <Content Include="Views\Comment\InsertComment.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -206,6 +216,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202005292003259_extend.resx">
       <DependentUpon>202005292003259_extend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006031529403_update menu Model.resx">
+      <DependentUpon>202006031529403_update menu Model.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
