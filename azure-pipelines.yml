@@ -30,5 +30,5 @@ steps:
 
 - task: VSTest@2
   inputs:
-    platform: '$(buildPlatform1)'
-    configuration: '$(buildConfigurationOskouei)'
+    platform: '$(buildPlatform)'
+    configuration: '$(buildConfiguration)'
